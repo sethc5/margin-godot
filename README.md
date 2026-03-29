@@ -134,6 +134,19 @@ The bracket notation is the same as the Python margin library:
 
 Same output in GDScript and Python. Systems can interoperate.
 
+## Part of the Margin framework
+
+This addon is a native GDScript port of [**margin**](https://github.com/sethc5/margin) — a typed health classification framework available for Python and other languages.
+
+The Python library includes everything in this addon plus: uncertainty algebra, policy engine (typed correction rules with backtest and tuning), contracts (typed success criteria), causal graphs (dependency explanations), forecasting, calibration from historical data, and domain adapters for healthcare, infrastructure, EV charging, aquariums, greenhouses, and fitness tracking.
+
+```bash
+pip install margin
+```
+
+**PyPI:** https://pypi.org/project/margin/
+**GitHub:** https://github.com/sethc5/margin
+
 ## License
 
 MIT
